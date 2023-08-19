@@ -1,0 +1,2 @@
+import{c as e}from"../server.mjs";import{r as t}from"../../handlers/renderer.mjs";import"../../nitro/cloudflare-module.mjs";import"__STATIC_CONTENT_MANIFEST";const o=Object.freeze({__proto__:null,default:{}}),r=t.defineComponent({props:{context:{type:Object,required:!0}},setup(r){const n=o[r.context.name];if(!n)throw e({statusCode:404,statusMessage:`Island component not found: ${JSON.stringify(n)}`});return()=>t.createVNode(n||"span",{...r.context.props,"nuxt-ssr-component-uid":""})}});export{r as default};
+//# sourceMappingURL=island-renderer-f70c2cce.mjs.map
