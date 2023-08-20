@@ -1,7 +1,5 @@
 # Test of nuxt running on cloudflare module workers with lazy loaded chunks
 
-TODO: add a wrangler.toml file!
-
 ___
 
 Nitropack code from [nitro#1172](https://github.com/unjs/nitro/pull/1172)
