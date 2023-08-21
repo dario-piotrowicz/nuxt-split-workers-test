@@ -3,12 +3,15 @@
   "private": true,
   "scripts": {
     "build": "NITRO_PRESET=cloudflare-module nuxt build",
+    "pages:build": "NITRO_PRESET=cloudflare-pages nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "worker:dev": "npx wrangler dev .output/server/index.mjs --site .output/public --local",
-    "worker:deploy": "npx wrangler deploy"
+    "worker:deploy": "npx wrangler deploy",
+    "pages:dev": "npx wrangler pages dev dist",
+    "pages:deploy": "npx wrangler pages deploy dist"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
