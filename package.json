@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "NITRO_EXP_CLOUDFLARE_DYNAMIC_IMPORTS=true NITRO_PRESET=cloudflare-module nuxt build",
+    "worker:build": "NITRO_EXP_CLOUDFLARE_DYNAMIC_IMPORTS=true NITRO_PRESET=cloudflare-module nuxt build",
     "pages:build": "NITRO_EXP_CLOUDFLARE_DYNAMIC_IMPORTS=true NITRO_PRESET=cloudflare-pages nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -18,6 +18,6 @@
     "@types/node": "^18.17.3",
     "nuxt": "^3.6.5",
     "nitropack": "./nitropack.tgz",
-    "wrangler": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/5905449393/npm-package-wrangler-3726"
+    "wrangler": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/5940196045/npm-package-wrangler-3726"
   }
 }
